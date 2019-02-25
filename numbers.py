@@ -56,3 +56,13 @@ if temperature <= 30:
 
 if temperature >= 30:
     print("it's more than 30 degrees")
+
+weight = input('weight: ')
+unit = input('(L)bs or (K)g: ')
+
+if unit.upper() == 'L':
+    converted = weight * 0.45
+    print(f"Weight pounds = {converted} kilos")
+else:
+    converted = weight / 0.45
+    print(f"Weight kilos = {converted} pounds")
