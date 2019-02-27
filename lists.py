@@ -44,3 +44,18 @@ for number in numbers:
         uniques.append(number)
 print(uniques)
 
+numbers = (1, 2, 3)
+print(numbers[0])
+
+# we cannot update or change tuples.
+
+# unpacking:
+coordinates = (1, 2, 3)
+x = coordinates[0]
+x = coordinates[1]
+x = coordinates[2]
+
+# same result:
+x, y, z = coordinates
+
+# unpacking can be used on lists as well.
