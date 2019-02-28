@@ -54,3 +54,8 @@ class Dog(Pet):
 
 # Python doesn't like empty classes
 # 'pass' has no value, but it can be used to "close" an empty class.
+
+# IMPORTING MODULES
+
+# "input [filename - no extension]" -> in code: [filename, no extension].[function]
+# "from [filename - no extension] import [function]
